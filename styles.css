@@ -33,7 +33,7 @@ html, body {
 
 .header {
     position: relative;
-    background-image: url(./FOTOS/INICIO\ H1.jpg);
+    background-image: url(./FOTOS/INICIO\ H1.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -554,7 +554,7 @@ width: 530px;
 /*SOBRE A TAYNÁ*/
 
 .sobre-tayna {
- background-image: url(./FOTOS/INICIO\ 5.png);
+ background-image: url(./FOTOS/INICIO\ 5.webp);
  background-size: cover;
  background-position:center;
  background-repeat: no-repeat;
@@ -1174,7 +1174,7 @@ max-width: 90vw;
 
 .header-sobre {
   height: 530px;
-  background-image: url(./FOTOS/SOBRE\ H1.jpg);
+  background-image: url(./FOTOS/SOBRE\ H1.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1360,7 +1360,7 @@ max-width: 90vw;
 
 .header-contato {
   height: 530px;
-  background-image: url(./FOTOS/CONTATO-1.jpg);
+  background-image: url(./FOTOS/CONTATO-1.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

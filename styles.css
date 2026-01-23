@@ -123,6 +123,11 @@ nav svg{
 }
 
 @media (max-width: 700px) {
+
+  .header{
+    background-image: url(./FOTOS/INICIO\ H1\ mobile.jpg);
+  }
+
   .links-container {
     flex-direction: column;
     position: fixed;
@@ -606,6 +611,10 @@ width: 530px;
 /*SOBRE A TAYNÁ MOBILE*/
 
 @media (max-width: 800px) {
+  .sobre-tayna{
+    background-image: url(./FOTOS/INICIO\ 5\ mobile.jpg);
+  }
+
   .texto-sobre {
     flex-direction: column;
     align-items: center;

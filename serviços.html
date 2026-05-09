@@ -9,12 +9,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <link rel="icon" href="./FOTOS/favicon.png" type="image/png">
 
-    <title>Tayná Souto - Contato</title>
+    <title>Tayná Souto - Serviços</title>
 </head>
 
 <body>
     
-<header class="header-contato">
+<header class="header-serviço">
 
   <!-- NAVEGAÇÃO -->
   <section class="navegacao">
@@ -55,41 +55,55 @@
   </section>
 
   <div class="contato-tayna-container">
-    <h1 class="conteudo-contato">Contato</h1>
+    <h1 class="conteudo-contato">Serviços</h1>
   </div>
 
 </header>
 
-<section class="contato">
-  <div class="contato-container">
+<section class="serviço">
+  <div class="serviço-container">
 
     <!-- TOPO -->
-    <div class="contato-topo">
-      <div class="contato-header">
+    <div class="serviço-topo">
+      <div class="serviço-header">
         <span class="linha-decorativa"></span>
-        <span class="subtitulo">Entre em contato</span>
+        <span class="subtitulo">Conheça os meus serviços</span>
       </div>
 
-      <h2 class="contato-titulo">Vamos conversar?</h2>
+      <h2 class="serviço-titulo">Seu próximo passo profissional começa aqui</h2>
 
-      <p class="contato-descricao">
-        Agende uma reunião inicial e entenda como a mentoria pode ajudar você a se posicionar melhor no mercado.
-      </p>
+      <p class="serviço-descricao">
+Seja para conquistar novas oportunidades, mudar de área ou aprender a comunicar melhor seu valor profissional, os serviços foram criados para ajudar você a se posicionar com mais segurança no mercado.      </p>
     </div>
 
-    <!-- FORMULÁRIO -->
-    <form class="contato-form" id="formulario" onsubmit="enviarWhats(event)">
-      <div class="form-linha">
-        <input type="text" placeholder="Seu nome" required id="nome">
+<div class="serviço-cards">
+      <div class="card-serviço1">
+        <span>Potencial em Movimento</span>
+        <h4> Mentoria para carreira e transição profissional</h4>
+        <p>Um acompanhamento completo para quem sente que está perdido profissionalmente, quer mudar de área ou crescer na carreira com mais direção. Aqui, você aprende a identificar seu potencial, definir objetivos e se posicionar no mercado.</p>
+        <a class="botao-contato" href="contato.html">Saiba mais</a>     
       </div>
 
-      <textarea placeholder="Detalhe melhor sobre seu objetivo com a mentoria" rows="5" id="mensagem"></textarea>
+      <div class="card-serviço">
+        <span>Orientação de Currículo e LinkedIn</span>
+        <h4>Seu perfil profissional mais forte</h4>
+        <p>Uma reunião individual para analisar, ajustar e melhorar seu currículo e LinkedIn, deixando sua apresentação mais clara, profissional e alinhada com as oportunidades que você busca.</p>
+      <a class="botao-contato" href="contato.html">Saiba mais</a>
+      </div>
 
-      <button type="submit">Enviar</button>
-    </form>
+      <div class="card-serviço">
+        <span>Ebook: Currículo de Sucesso</span>
+        <h4>Aprenda a criar um currículo que realmente comunica seu valor</h4>
+        <p>Um guia prático com orientações, estrutura e dicas para montar um currículo mais organizado, atrativo e preparado para processos seletivos reais.</p>
+      <a class="botao-contato" href="contato.html">Saiba mais</a>
+      </div>
 
   </div>
 </section>
+</section>
+
+
+    
 
 <footer>
 
@@ -129,7 +143,8 @@
 <path fill-rule="evenodd" clip-rule="evenodd" d="M12 23C10.7764 23 10.0994 22.8687 9 22.5L6.89443 23.5528C5.56462 24.2177 4 23.2507 4 21.7639V19.5C1.84655 17.492 1 15.1767 1 12C1 5.92487 5.92487 1 12 1C18.0751 1 23 5.92487 23 12C23 18.0751 18.0751 23 12 23ZM6 18.6303L5.36395 18.0372C3.69087 16.4772 3 14.7331 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21C11.0143 21 10.552 20.911 9.63595 20.6038L8.84847 20.3397L6 21.7639V18.6303Z" fill="#FFF"/>
 </svg>
         </a>
-    </a>
+
+            </a>
 
         <a href="https://br.linkedin.com/in/tayna-souto" aria-label="LinkedIn">
           <svg width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -155,26 +170,6 @@
 </section>
 
 </footer>
-
-
-<script>
-    function enviarWhats(event){
-        event.preventDefault()
-
-        const nome = document.getElementById('nome').value;
-        const mensagem = document.getElementById('mensagem').value;
-        const telefone = '5515998561424'
-
-        const texto =  `Olá! Me chamo ${nome}. Gostaria de saber mais sobre a mentoria. ${mensagem}`
-        const msgFormatada = encodeURIComponent (texto)
-
-        const url =  `https://wa.me/${telefone}?text=${msgFormatada}`
-
-        window.open(url,  `_blank`)
-    }
-
-</script>
-
 </body>
 
 <script>
@@ -203,3 +198,5 @@
 </script>
 
 </html>
+
+
